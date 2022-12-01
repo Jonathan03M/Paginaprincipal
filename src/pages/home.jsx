@@ -18,7 +18,7 @@ export function Home() {
   return (
     <>
       <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')] bg-cover bg-center" />
+        <div className="absolute top-0 h-full w-full bg-[url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
@@ -28,10 +28,12 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black"
               >
-                ProHabits
+                Your story starts with us.
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-               Si cambias tus habitos, cambias tu vida.
+                This is a simple example of a Landing Page you can build using
+                Material Tailwind. It features multiple components based on the
+                Tailwind CSS and Material Design by Google.
               </Typography>
             </div>
           </div>
